@@ -54,6 +54,6 @@ ai-career-mentor/
 - More accurate AI suggestions
 - Multiple language support
 
-## Author
+
 
 Sujal Chaundkar
