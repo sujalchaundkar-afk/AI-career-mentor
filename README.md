@@ -54,6 +54,21 @@ ai-career-mentor/
 - More accurate AI suggestions
 - Multiple language support
 
+## How to Run
 
+1. Clone this repository.
+2. Install Flask using:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Start the application:
+
+```bash
+python app.py
+```
+
+4. Open the link shown by Flask in your web browser.
 
 Sujal Chaundkar
