@@ -1,15 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from career import get_career
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder=".", static_url_path="")
 
 @app.route("/")
 def home():
-    return "AI Career Mentor Backend is Running"
+    return send_from_directory(".", "index.html")
 
 @app.route("/career", methods=["POST"])
 def career():
-
     data = request.get_json()
 
     skills = data["skills"]
